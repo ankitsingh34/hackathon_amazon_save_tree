@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+Hackathon 2022- Amazon Save Tree - Build a Recycle Road
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*Feature “Return Packaging”*
 
-## Available Scripts
+Problem Statement:
 
-In the project directory, you can run:
+Every shopping done via Amazon uses one or other type of packaging, like Cardboard boxes, or Plastic or some other mean of packaging. The packaging material consumed per product might count negligible but global consumption of these material is very huge.Since Cardboard and Plastic both materials are reusable, we are proposing the feature on Amazon app to “Return Packaging” whether it is plastic or cardboard or wrapping papers in exchange of Reward points which customer can use during next shopping
 
-### `npm start`
+Why is this feature important?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+According to a report released by Sanford C. Bernstein, Amazon ships an average of 608 million packages each year, which equates to (an estimated) 1,600,000 packages a day which is equivalent to 10,000 trees per day and 3,50,000 trees per year in US. That’s a lot of cardboard, even when we consider some of the packaging used may be padded envelopes. High recycling numbers for the brown box doesn’t begin to address the larger issue: Each year in the United States, the paper thrown in the trash represents approximately 640 million trees, or roughly 915,000 acres of forest land, according to upstreampolicy.org (http://upstreampolicy.org/). On average, around 12 trees are required to make one ton of paper. So with recycled cardboard, over 3,150,000 trees are saved every year in the US to manufacture paper products.the growing trend of excessive packaging will certainly lead to considerable loss of forest cover, as wood pulp remains the main raw material for making packaging cardboard.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*Carbon emission :*
 
-### `npm test`
+According to this (https://www.cartononduledefrance.org/en/eco-responsability/) , one ton of corrugated cardboard causes emissions amounting to 538 kg of CO2. In US, 1,600,000 packages are shipped per day which is equivalent to 588 ton of cardboard per day. It results in emission 316,344 kg of CO2 per day and 115,465,560 kg of CO2 per year which is a huge number. According to this (https://www.doncasterfreepress.co.uk/news/environment/how-much-carbon-dioxide-released-using-cardboard-and-plastic-packaging-1386548), 3 kg of CO2 emission is equivalent to burning of 1kg of oil. So, just because of cardboard , we are emitting CO2 equal to 38,488,520 kg of oil burning per year.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+An image showing cardboard and packages thrown in garbage 
 
-### `npm run build`
+[Image: giant_pile.webp]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Image: 22110619-standard.jpg]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Why Cardboards ?
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Cardboard boxes are the packaging products and also essential for protecting goods and products. These boxes are durable in nature so you can use them in house moves and removal. They offer protection to the items.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+*Advantages of cardboard boxes:*
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* *Made from renewable resources:* Cardboard boxes are made from paper pulp. This paper pulp is renewable because it is obtained from birch and pine trees.
+* *Save energy:* Energy consumption in the manufacturing of these boxes is considerably less when compared to other packing materials.
+* *Reusable:* These boxes can be used again and again. These boxes can be easily collapsed when not in use.
+* *Easily disposable:* Recycled cardboard boxes are extremely nature friendly. They are easily disposable.
+* *Lightweight:* They are very convenient to handle while packaging, loading and unloading.
+* Paper pulp is the main material from which corrugated cardboard boxes are made. This pulp is obtained from birch and pine trees. The advantages of these trees are that they grow faster when compared to other varieties of hardwood trees.
+* Cardboard boxes are recyclable in nature. The energy that is used in the manufacturing of these boxes is considerably less when compared to other packing materials. made with locally available materials, there is considerable reduction in the transportation costs. On the whole, the volume of energy spent in making corrugated cardboard boxes is considerably less.
+*  Nature Friendly And Easily Disposable - Recycled cardboard boxes are extremely nature friendly and are easily disposable. They decompose easily and do not leave behind any kind of waste or toxic substances on the ground causing some kind of pollution. Throwing away the boxes in the recyclable bin is also an option of disposing off the packing materials successfully without affecting the environment.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Current Scenario 
 
-## Learn More
+* Amazon buys its packaging material from these companies.
+    * WestRock
+    * International Paper
+    * PCA
+    * Georgia Pacific
+* Amazon use these packaging material/cardboard to ship products to the customer 
+* Its on customer to recycle or not to recycle the cardboard
+* If package gets recycled 
+    * then it will go back to these companies and gets reused and amazon will buy again 
+* if package does not get recycled 
+    * then it gets wasted 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In both ways, if package gets recycled or not, amazon has to buy packages from these companies. What if , Amazon gets its package back ?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Customer will be more inclined towards recycle/return packaging as he/she will get rewards point in exchange of this 
 
-### Code Splitting
+[Image: Screenshot 2022-08-03 at 5.50.45 PM.png]
+Revenue of these companies just by selling cardboard and packaging materials
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+*WestRock:*
 
-### Analyzing the Bundle Size
+* WestRock revenue for the quarter ending March 31, 2022 was *$5.382B*, a *21.28% increase* year-over-year.
+* WestRock revenue for the twelve months ending March 31, 2022 was *$20.241B*, a *15.35% increase* year-over-year.
+* WestRock annual revenue for 2021 was *$18.746B*, a *6.64% increase* from 2020.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+*International Paper:*
 
-### Making a Progressive Web App
+* International Paper revenue for the quarter ending June 30, 2022 was *$5.389B*, a *12.98% increase* year-over-year.
+* International Paper revenue for the twelve months ending June 30, 2022 was *$20.626B*, a *23.44% increase* year-over-year.
+* International Paper annual revenue for 2021 was *$19.363B*, a *10.24% increase* from 2020.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+*Georgia Pacific:*
 
-### Advanced Configuration
+* Packaging Of America revenue for the quarter ending June 30, 2022 was *$2.237B*, a *19.01% increase* year-over-year.
+* Packaging Of America revenue for the twelve months ending June 30, 2022 was *$8.417B*, a *18.63% increase* year-over-year.
+* Packaging Of America annual revenue for 2021 was *$7.73B*, a *16.1% increase* from 2020.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+What  are we proposing to solve this problem?
 
-### `npm run build` fails to minify
+* The packaging material consumed per product might count negligible, but as per above statistic, global consumption of these material is very huge
+* To save environment from plastic pollution or setting up the recycling process for cardboard can not happen at individual level. Giant organizations like Amazon can help us take steps forward and collectively help globe to setup appropriate process in place to protect Earth and all species from these calamities
+* Since Cardboard and Plastic both materials are reusable, we are proposing the feature on Amazon app to “*Return Packaging*” whether it is plastic or cardboard or wrapping papers in exchange of Reward points which customer can use during next shopping
+* This can help organize the re-usable packaging stuff in bulk for Amazon, and schedule their recycling process. It will account for big revolution in terms of organizing packaging wastes and reusing the material for next cycles of delivery which can help save the environment and make contribution to improve the quality of life on planet Earth for all species
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+How Amazon can handle Return Packaging ?
+
+Amazon can tie up with third party firms for recycling their collected cardboard in return of money or new cardboard. In this way Amazon can save the cost of buying new cardboard again and again. There are many firm like RecoverUSA , QuincyRrecycle, GoLoadUp, International Paper, etc. which will even provide Logisitic to collect the bulk of used cardboards and buy from them. 
+
+Steps mentioned in official website of QuincyRecycle  to recycle cardboards :
+
+[Image: Screenshot 2022-08-04 at 12.13.11 PM.png]
+[Image: Screenshot 2022-08-04 at 12.13.20 PM.png]
+
+Step mentioned in official website of RecoverUSA :
+
+[Image: Screenshot 2022-08-04 at 12.18.05 PM.png]
+
+Conclusion :
+
+Amazon, being the top customer concentric company, can take the initiative of introducing return package feature. All customers would love to return the used cardboards for some reward points or cash-back. It will not only save the cost of producing new cardboard but this feature will add Environment safety and Eco-Friendly delivery. This will be the first e-commerce company providing the feature who takes charge of the package recycling.

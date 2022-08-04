@@ -31,7 +31,7 @@ export default function Order({ item, isReturnFlag ,process,pending}) {
               {process!=item.id&&pending!=item.id&&(<div>return package</div>)}
             </Link>
           )}
-          {item.isReturnPackage==false&&(<div style={{color:"Red"}}> return package : NA </div>)}
+          {item.isReturnPackage==false&&(<div style={{color:"Gray"}}> return package  </div>)}
         </div>
         <div className="row">
            <Link to="/">return/replace</Link>
