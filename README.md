@@ -55,7 +55,7 @@ In both ways, if package gets recycled or not, amazon has to buy packages from t
 
 * Customer will be more inclined towards recycle/return packaging as he/she will get rewards point in exchange of this 
 
-![](/public/img/Screenshot 2022-08-03 at 5.50.45 PM.png)
+![](/public/img/Screenshot45.png)
 Revenue of these companies just by selling cardboard and packaging materials
 
 *WestRock:*
@@ -92,14 +92,14 @@ Amazon can tie up with third party firms for recycling their collected cardboard
 Steps mentioned in official website of QuincyRecycle  to recycle cardboards :
 
 
-![](/public/img/Screenshot 2022-08-04 at 12.13.11 PM.png)
+![](/public/img/Screenshot11.png)
 
 
-![](/public/img/Screenshot 2022-08-04 at 12.13.20 PM.png)
+![](/public/img/Screenshot20.png)
 Step mentioned in official website of RecoverUSA :
 
 
-![](/public/img/Screenshot 2022-08-04 at 12.18.05 PM.png)
+![](/public/img/Screenshot05.png)
 Conclusion :
 
 Amazon, being the top customer concentric company, can take the initiative of introducing return package feature. All customers would love to return the used cardboards for some reward points or cash-back. It will not only save the cost of producing new cardboard but this feature will add Environment safety and Eco-Friendly delivery. This will be the first e-commerce company providing the feature who takes charge of the package recycling to save the Globe and Go-Green Campaign
