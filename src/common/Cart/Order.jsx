@@ -2,7 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
-export default function Order({ item, isReturnFlag }) {
+export default function Order({ item, isReturnFlag ,process,pending}) {
+  console.log("order process id",process);
+  console.log("order pending id",pending);
   return (
     <div className="row" key={item.id}>
       <div className="col">
@@ -23,11 +25,13 @@ export default function Order({ item, isReturnFlag }) {
         </div>
         <div className="row">
           {isReturnFlag == true && item.isReturnPackage == true &&(
-            <Link to={{ pathname: "/return" }} state={{ state: { item } }}>
-              {" "}
-              return package
+            <Link to={{ pathname: "/timer" }} state={{ state: { item } , pending:item.id}}>
+              {process==item.id&&(<div style={{color:"Green"}}>return package : success</div>)} 
+              {pending==item.id&&(<div style={{color:"Red"}}>return package : pending</div>)} 
+              {process!=item.id&&pending!=item.id&&(<div>return package</div>)}
             </Link>
           )}
+          {item.isReturnPackage==false&&(<div style={{color:"Red"}}> return package : NA </div>)}
         </div>
         <div className="row">
            <Link to="/">return/replace</Link>
