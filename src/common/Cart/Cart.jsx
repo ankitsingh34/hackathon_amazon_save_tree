@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Order from "./Order";
 import "./style.css";
 
@@ -10,6 +9,7 @@ const Cart = ({ CartItem}) => {
       <div>
         <div>
           <div className="container">
+            <hr/>
             {CartItem.length === 0 && (
               <h1>No Items are add in Cart</h1>
             )}

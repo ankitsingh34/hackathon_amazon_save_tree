@@ -9,6 +9,7 @@ const Data = {
       price: 120,
       qty: 1,
       cover: "./sunglasses.jpg",
+      isReturnPackage:false,
     },
     {
       id: "OID22343243242",
@@ -19,6 +20,7 @@ const Data = {
       price: 200,
       qty: 1,
       cover: "./headPhone.jpg",
+      isReturnPackage:true,
     },
     {
       id: "OID32784782744",
@@ -29,6 +31,7 @@ const Data = {
       price: 7000,
       qty: 1,
       cover: "./laptop.jpg",
+      isReturnPackage:true,
     },
   ]
 };

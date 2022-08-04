@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
-export default function Order({ item,isReturnFlag}) {
+export default function Order({ item, isReturnFlag }) {
   return (
     <div className="row" key={item.id}>
       <div className="col">
@@ -12,19 +12,26 @@ export default function Order({ item,isReturnFlag}) {
           alt=""
         />
       </div>
-      <div className="col-8">
+      <div className="col-6">
         <div>
           <p>{item.details}</p>
         </div>
       </div>
       <div className="col">
-        <p>${item.price}</p>
-        {isReturnFlag == true && (
-          <Link to={{ pathname: "/return" }} state={{ state: { item } }}>
-            {" "}
-            return package
-          </Link>
-        )}
+        <div className="row">
+          <p>${item.price}</p>
+        </div>
+        <div className="row">
+          {isReturnFlag == true && item.isReturnPackage == true &&(
+            <Link to={{ pathname: "/return" }} state={{ state: { item } }}>
+              {" "}
+              return package
+            </Link>
+          )}
+        </div>
+        <div className="row">
+           <Link to="/">return/replace</Link>
+        </div>
       </div>
     </div>
   );

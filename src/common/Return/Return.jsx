@@ -15,26 +15,22 @@ export default function Return() {
     );
   const { item } = location.state.state;
   return (
-    <div>
+    <div className="container">
       <center>
-        <br />
-        <div>
-          <h2>Welcome to Amazon Return Packaging </h2>
-        </div>
+      
         <br />
         <div>
           Request for Return for item {item.name} #orderId {item.id} has been
-          place successfully.
+          placed successfully.
         </div>
         <br />
         <div>
-          Yaay! {item.rewardPoints} Reward points on the way for #orderId{" "}
+          Yaay !!!!  {item.rewardPoints}  Reward points on the way for #orderId{" "}
           {item.id}
         </div>
-        <br />
-        <br />
+        <br/>
         <hr />
-        <div className="container">
+        <div >
           <Order item={item} isReturnFlag={false}/>
         </div>
         <hr />
